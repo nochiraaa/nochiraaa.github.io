@@ -138,8 +138,19 @@ a {
     color: #1a1a1a;
     text-decoration: none;
 }
+
 a:hover {
     color: #4d4d4d;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+a:active {
+    color: #1a1a1a;
     text-decoration: none;
 }
 
@@ -181,7 +192,68 @@ body {
 }
 
 .container-fluid {
+    max-width: 800px;
+    width: 90%;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    padding: 20px 20px 0px 20px ;
     z-index: 1;
     color: #000;
+    background-color: rgba(200,200,200,0.2);
 }
 
+.profile .row {
+    width: 100%;
+    margin: 0px auto 20px auto;
+    text-align: center;
+}
+
+.profile .row-xs {
+        width: 80%;
+        text-align: left;
+} 
+
+.name {
+    font-size: 25px;
+}
+
+.works .work {
+    text-align: center;
+    margin: 0px auto 20px auto;
+}
+
+.works .work a {
+    
+}
+
+.works .work a img {
+    width: 100%;
+    display: block;
+}
+
+.works .work a p {
+    width: 100%;
+    padding-top: 20px;
+    margin: auto;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    margin: 0 auto 10px auto;
+    color: #000;
+}
+@media(max-width:767px) {
+    
+    .container-fluid {
+        padding: 20px 0 0 0;   
+    }
+    .profile .row-xs {
+        width: 80%;
+        text-align: center;
+    } 
+
+    .row-xs h2 {
+        margin: 0 auto 10px auto;
+    }
+}
