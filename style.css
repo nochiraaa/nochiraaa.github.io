@@ -24,24 +24,30 @@ time, mark, audio, video {
     font-size: 100%;
     vertical-align: baseline;
 }
+
 body {
     line-height: 1;
 }
+
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
     display: block;
 }
+
 nav ul {
     list-style: none;
 }
+
 blockquote, q {
     quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
 }
+
 a {
     margin: 0;
     padding: 0;
@@ -194,7 +200,7 @@ body {
 .container-fluid {
     max-width: 800px;
     width: 90%;
-    margin-top: 200px;
+    margin-top: 10px;
     margin-bottom: 10px;
     padding: 20px 20px 0px 20px ;
     z-index: 1;
@@ -243,6 +249,7 @@ footer {
     margin: 0 auto 10px auto;
     color: #000;
 }
+
 @media(max-width:767px) {
     
     .container-fluid {
